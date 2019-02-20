@@ -1,0 +1,254 @@
+.nav{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.15);
+}
+.navContent{
+    width: 1170px;
+    height: 100%;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    /*background: green;*/
+    float: left;
+    margin-top: 14px;
+}
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList{
+    width: 602px;
+    height: 100%;
+    /*background: blue;*/
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+
+.message{
+    width: 100%;
+    height: 120px;
+    background: #F1F1F1;
+    color: #F67A82;
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: none;
+    text-align: center;
+    line-height: 120px;
+}
+.box{
+    width: 100%;
+    height: 763px;
+    background: #F1F1F1;
+    padding: 30px 0;
+}
+.languageBox{
+    width: 1170px;
+    height: 763px;
+    background: #F1F1F1;
+    margin: 0 auto;
+}
+.languageLeft{
+    float: left;
+    width: 720px;
+    height: 703px;
+    background: white;
+    padding: 30px;
+}
+
+.list{
+    width: 100%;
+    height: 683px;
+    margin-bottom: 20px;
+}
+
+.listItem{
+    width: 718px;
+    /*height: 57px;*/
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-bottom-color: #e4eaec;
+}
+.listItem:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.listItem .itemContent{
+    width: 100%;
+    height: 53px;
+}
+.itemContent .contentLeft{
+    float: left;
+    width: 46px;
+    height: 53px;
+}
+.contentLeft .iconfont{
+    font-size: 36px;
+}
+.itemContent .contentRight{
+    float: right;
+    width: 671px;
+    /*height: 53px;*/
+}
+.contentRight p{
+    font-size: 14px;
+    color: #76838f
+}
+.contentRight p.second{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.contentRight .pull-right{
+    float: right!important;
+    font-size: 10px;
+}
+.answer{
+    padding: 20px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+
+.languageRight{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 401px;
+    background: white;
+    padding: 30px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+    display: block;
+    width: 268px;
+    height: 22px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+textarea.form-control {
+    height: auto;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 156px;
+    margin-bottom: 0;
+}
+.input-group-addon {
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #76838f;
+    text-align: center;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #62a8ea;
+    border-color: #62a8ea;
+}
+.btn{
+    border: 1px solid transparent;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.block{
+    width: 100%;
+    height: 20px;
+    background: white;
+    border-top: 1px solid #f0f2f5;
+}
+.bottom{
+    width: 100%;
+    height: 132px;
+    background: #f4f4f4;
+    padding: 10px 0 20px 0;
+}
+.bottom .images{
+    margin: 0 auto ;
+    width: 140px;
+    height: 46px;
+    /*background: #16b0bc;*/
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom .images .iconfont{
+    font-size: 30px;
+}
+.son p{
+    font-size: 14px;
+    color: #aaaaaa;
+    line-height: 1.8;
+}
+.son a{
+    color: #62a8ea;
+}
+.son a:hover{
+    color: #82c9ea;
+    text-decoration: underline;
+}
+.san .son{
+    text-align: center;
+    width: 1170px;
+    height: 74px;
+    margin: 0 auto;
+    /*background: blue;*/
+}
